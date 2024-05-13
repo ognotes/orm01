@@ -21,4 +21,9 @@ resource "oci_core_default_route_table" "defaul_RT_vcn01" {
 
 }
 
+resource "oci_core_default_security_list" "defaul_SL_vcn01" {
+  manage_default_resource_id = oci_core_virtual_network.vcn01.default_security_list_id
+
+}
+
 
