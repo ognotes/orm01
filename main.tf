@@ -34,5 +34,4 @@ resource "oci_core_default_security_list" "defaul_SL_vcn01" {
       min = 22
     }
   }
-
-
+}
